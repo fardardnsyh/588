@@ -1,0 +1,37 @@
+{
+  "name": "zach",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev -H 0.0.0.0",
+    "build": "next build",
+    "start": "next start",
+    "prettier": "prettier --write .",
+    "lint": "next lint"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@chakra-ui/icons": "^2.1.1",
+    "@chakra-ui/react": "^2.8.2",
+    "@emotion/react": "^11.11.4",
+    "@emotion/styled": "^11.11.5",
+    "@react-spring/three": "^9.7.3",
+    "@react-three/drei": "^9.105.6",
+    "@react-three/fiber": "^8.16.3",
+    "framer-motion": "^11.1.8",
+    "hamburger-react": "^2.5.0",
+    "next": "^14.2.3",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-icons": "^5.2.0",
+    "react-spring": "^9.7.3"
+  },
+  "devDependencies": {
+    "eslint": "^8.12.0",
+    "eslint-config-next": "^12.1.4",
+    "prettier": "^2.6.2"
+  }
+}
